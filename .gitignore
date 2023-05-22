@@ -1,0 +1,40 @@
+# Go build and test files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+
+# Go binaries and packages
+/bin/
+/pkg/
+
+# Go test cache
+/.cache/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+
+# Dependency directories
+/vendor/
+/go.sum
+/tmp
+
+# Output directories
+/out/
+/dist/
+/build/
+
+# Compiled output
+*.o
+*.a
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

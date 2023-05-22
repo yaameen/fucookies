@@ -1,0 +1,10 @@
+target: "https://edge-api.dnr.gov.mv/"
+port: 443
+allowed_headers:
+  - Content-Type
+  - Authorization
+
+cookie:
+  domain:
+    from: dnr.gov.mv
+    to: localhost
