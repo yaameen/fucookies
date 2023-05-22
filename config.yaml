@@ -1,0 +1,13 @@
+listen_on: 0.0.0.0:3000
+target: "https://edge-api.dnr.gov.mv/"
+allowed_origin: http://localhost:8080
+allow_credentials: true
+port: 443
+allowed_headers:
+  - Content-Type
+  - Authorization
+
+cookie:
+  domain:
+    from: dnr.gov.mv
+    to: localhost
